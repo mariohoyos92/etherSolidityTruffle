@@ -21,7 +21,8 @@ const deploy = async () => {
       gasPrice: web3.utils.toWei("2", "gwei")
     });
 
-  console.log(result.options.address);
+  console.log("address", result.options.address);
+  console.log("interface", interface);
 };
 
 deploy();
